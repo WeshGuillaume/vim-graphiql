@@ -1,0 +1,18 @@
+# Keyboard shortcuts:
+#
+# * Run Query: Ctrl-Enter (or press the play button above)
+# * Auto Complete: Ctrl-Space (or just start typing)
+#
+# An example GraphQL query might look like:
+
+{
+  reactions(first: 10) {
+    edges {
+      node {
+        Equation
+        chemicalComposition
+        reactionEnergy
+      }
+    }
+  }
+}
